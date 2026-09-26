@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-firecrawl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Firecrawl MCP — wraps the Firecrawl API (firecrawl.dev) for web",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-1aeb0d5fb22dca8aeb010d8ee0a67362a5046513f98e0051a40407588088d9da",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-5e0edd143e51af76cc6d8cd9bbeae49aadc0b2ca86c90d3c44ff5089d40d7bb8",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }

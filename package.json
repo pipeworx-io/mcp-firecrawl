@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-firecrawl",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Firecrawl MCP — wraps the Firecrawl API (firecrawl.dev) for web scraping / crawling / search optimized for LLM consumption.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "firecrawl",
     "gatewaySlug": "firecrawl",
-    "sourceHash": "v1-d13d58e3a614b56ad66d275db83bf4f312f6d806955e01a75760924ef5c00d67",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-ac518d76298b03bf20e7f8ce654dee7dc0cd591c0d315f0bd09cd7c12758689d",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }

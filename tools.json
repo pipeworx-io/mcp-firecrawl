@@ -31,7 +31,7 @@
     }
   },
   {
-    "name": "map",
+    "name": "firecrawl_map",
     "description": "Crawl a website and return all discovered URLs (up to 5,000). Optionally filter by a search term to rank discovered links by relevance. Returns {url, count, links[]}.",
     "inputSchema": {
       "type": "object",
@@ -59,7 +59,7 @@
     }
   },
   {
-    "name": "search",
+    "name": "firecrawl_search",
     "description": "Run a web search via Firecrawl and return ranked results with URL, title, and description snippet. Takes a query string and optional limit (default 5, max 20). Returns {query, results[{url, title, description}]}.",
     "inputSchema": {
       "type": "object",

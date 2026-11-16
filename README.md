@@ -1,16 +1,16 @@
 # mcp-firecrawl
 
-Firecrawl MCP — wraps the Firecrawl API (firecrawl.dev) for web scraping / crawling / search optimized for LLM consumption.
+Unofficial Firecrawl MCP — wraps the Firecrawl API (firecrawl.dev) for web scraping / crawling / search optimized for LLM consumption.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1864+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
 | `scrape` | Scrape a single URL using Firecrawl's JS-rendering engine and return clean markdown (up to 100,000 chars), page title, and description. Strips navigation/boilerplate by default (only_main_content=true). Supports output formats: markdown, html, rawHtml, links. |
-| `map` | Crawl a website and return all discovered URLs (up to 5,000). Optionally filter by a search term to rank discovered links by relevance. Returns {url, count, links[]}. |
-| `search` | Run a web search via Firecrawl and return ranked results with URL, title, and description snippet. Takes a query string and optional limit (default 5, max 20). Returns {query, results[{url, title, description}]}. |
+| `firecrawl_map` | Crawl a website and return all discovered URLs (up to 5,000). Optionally filter by a search term to rank discovered links by relevance. Returns {url, count, links[]}. |
+| `firecrawl_search` | Run a web search via Firecrawl and return ranked results with URL, title, and description snippet. Takes a query string and optional limit (default 5, max 20). Returns {query, results[{url, title, description}]}. |
 
 ## Quick Start
 
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1864+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
